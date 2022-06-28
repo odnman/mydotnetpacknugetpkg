@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>mydotnetpacknuget</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Authors>ODNMAN</Authors>
+    <Company>My Company</Company>
+    <PackageDescription>Nuget packakge sample with dotnet pack!</PackageDescription>
+    <RepositoryUrl>https://github.com/odnman/mydotnetpacknugetpkg.git</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
