@@ -17,6 +17,10 @@ jobs:
         uses: actions/setup-dotnet@v2
         with: 
           dotnet-version: '5.0.x'
+
+      - name: Create Output Directory
+        run:  mkdir mypkgout
+        
       - name: Restore with dotnet
         run:  dotnet restore ${projectpath}
 
